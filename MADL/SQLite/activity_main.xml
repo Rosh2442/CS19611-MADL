@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".MainActivity" >
+<TextView
+android:id="@+id/tvRegisterNumber"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Register Number" />
+<EditText
+android:id="@+id/etRegisterNumber"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:ems="10"
+android:inputType="textPersonName" />
+<TextView
+android:id="@+id/tvName"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Name" />
+<EditText
+android:id="@+id/etName"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:ems="10"
+android:inputType="textPersonName" />
+<TextView
+android:id="@+id/tvCGPA"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="CGPA" />
+<EditText
+android:id="@+id/etCGPA"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:ems="10"
+android:inputType="textPersonName" />
+<Button
+android:id="@+id/btAdd"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Add"
+android:textAllCaps="false" />
+<Button
+android:id="@+id/btView"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+
+Dept. of Computer Science and Engineering | Rajalakshmi Engineering College 39
+android:text="View"
+android:textAllCaps="false" />
+<Button
+android:id="@+id/btModify"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Modify"
+android:textAllCaps="false" />
+<Button
+android:id="@+id/btDelete"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Delete"
+android:textAllCaps="false" />
+<Button
+android:id="@+id/btClear"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Clear"
+android:textAllCaps="false" />
+</LinearLayout>
